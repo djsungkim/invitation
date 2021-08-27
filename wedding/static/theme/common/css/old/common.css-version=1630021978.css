@@ -921,9 +921,6 @@ img.imh100 {
   width: 70px;
   height: 70px;
 }
-.partner_area .partner_image img {
-  background: #3d3c3b;
-}
 
 .animation {
   opacity: 0;
@@ -1034,7 +1031,4 @@ img.imh100 {
   background-color: #b9b9b9;
   color: #fff;
   font-size: 14px;
-}
-.view_account_wrapper .view_account_area .wechatpay img {
-  max-width: 200px;
 }

@@ -1193,7 +1193,10 @@ b {
   width: 30px;
   vertical-align: middle;
 }
-
+.map_control {
+  width: 100%;
+  overflow: hidden;
+}
 .traffic_area_title {
   width: 100%;
   padding: 50px 0;
@@ -1306,7 +1309,8 @@ b {
 }
 
 .traffic_place {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  padding: 50px;
   text-align: center;
   margin-bottom: 30px;
   font-size: 1.3em;
@@ -1676,7 +1680,7 @@ b {
 }
 
 .partner_area {
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   text-align: center;
 }
 
