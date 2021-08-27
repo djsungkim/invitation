@@ -247,7 +247,7 @@ b {
   text-align: center;
   color: #313131;
   position: fixed;
-  top: 50%;
+  bottom: 20px;
   right: 10px;
 }
 
