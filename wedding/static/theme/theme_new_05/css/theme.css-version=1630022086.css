@@ -1196,6 +1196,7 @@ b {
 .map_control {
   width: 100%;
   overflow: hidden;
+  text-align: -webkit-center;
 }
 .traffic_area_title {
   width: 100%;
