@@ -11,16 +11,22 @@
         <meta property="og:url" content="coding114.tk/33633">
         <meta property="og:description" content="코딩&고릴라 결혼식을 축하해주세요.">
         <meta property="og:title" content="코딩♥고릴라 결혼합니다.">
-        <meta property="og:image" content="coding114.tk/static/upload/invitation/33633/crop/3654f03735143842fa226a3da3204465.jpg">
 
         <link href="../../../fonts.googleapis.com/css-family=Nanum+Gothic-Nanum+Myeongjo.css" rel="stylesheet">
         <link rel="stylesheet" href="../../static/theme/common/css/reset.css" />
         <link rel="stylesheet" href="../../static/theme/common/css/animate.css" />
         <link rel="stylesheet" href="../../static/theme/common/css/common.css-version=1630022086.css" />
         <link rel="stylesheet" href="../../static/theme/theme_new_05/css/theme.css-version=1630022086.css" />
-        <link rel="stylesheet" href="../../static/js/lightGallery/dist/css/lightgallery.css" />
         <link rel="stylesheet" href="../../static/js/jssor.slider/jssor1.css" />
         <link rel="stylesheet" href="../../static/js/emojionearea/emojionearea.css" />
+        <!-- lightgallery start -->
+        <link type="text/css" rel="stylesheet" href="../../static/js/lightGallery/dist/css/lightgallery.css" />
+        <!-- lightgallery plugins -->
+        <link type="text/css" rel="stylesheet" href="../../static/js/lightGallery/dist/css/lg-zoom.css" />
+        <link type="text/css" rel="stylesheet" href="../../static/js/lightGallery/dist/css/lg-thumbnail.css" />
+        <!-- OR -->
+        <link type="text/css" rel="stylesheet" href="../../static/js/lightGallery/dist/css/lightgallery-bundle.css" />
+        <!-- lightgallery End -->
     </head>
     <body>
         <div class="wrapper">
@@ -61,21 +67,39 @@
                 <div class="gallery_title">
                     <img src="../../static/theme/theme_new_05/img/gallery_title.png" />
                 </div>
-                <div class="gallery">
-                    <div class="gallery_list">
-                        <div class="gallery_devide">
-                            <img src="../../static/upload/invitation/33633/thumb/16.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/11.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/12.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/13.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/15.jpg" class="animation animationUp" />
-                        </div>
-                        <div class="gallery_devide">
-                            <img src="../../static/upload/invitation/33633/thumb/12.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/14.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/13.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/11.jpg" class="animation animationUp" />
-                            <img src="../../static/upload/invitation/33633/thumb/16.jpg" class="animation animationUp" />
+                <div class="gallery" >
+                    <div class="gallery_list" >
+                        <div class="gallery_devide" id="lightgallery">
+                            <a href="../../static/upload/invitation/33633/thumb/11.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/11.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/12.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/12.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/13.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/13.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/14.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/14.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/11.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/11.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/12.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/12.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/13.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/13.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/14.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/14.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/15.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/15.jpg" class="animation animationUp" />
+                            </a>
+                            <a href="../../static/upload/invitation/33633/thumb/16.jpg" data-lg-size="1600-2400">
+                                <img src="../../static/upload/invitation/33633/thumb/16.jpg" class="animation animationUp" />
+                            </a>
                         </div>
                     </div>
                     <!-- <button type="button" class="gallery_more_button fng">갤러리 더보기 CLICK +</button> -->
@@ -87,7 +111,7 @@
                 <!-- 배경음악 -->
                 <div class="bgm_action">
                     <a href="#" id="btn_bgm_control"><img src="../../static/theme/theme_new_05/img/sound_on.gif" /></a>
-                    <audio id="bgm" loop="loop" autoplay="autoplay"><source src="../../static/resource/bgm/Love_You_(JTBC_효리네_민박2_삽입곡)-용량줄임.mp3" type="audio/mp3" /></audio>
+                    <audio id="bgm" loop="loop" autoplay="autoplay"><source src="../../static/resource/bgm/IU(아이유) _ Celebrity.mp3" type="audio/mp3" /></audio>
                 </div>
             </div>
             <div class="invitation_area">
@@ -392,20 +416,18 @@
 			
 			<!-- * 카카오맵 - 지도퍼가기 -->
             <!-- 1. 지도 노드 -->
-            <div id="daumRoughmapContainer1630039877694" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-
+            <div id="daumRoughmapContainer1630054847310" class="root_daum_roughmap root_daum_roughmap_landing"></div>
             <!--
                 2. 설치 스크립트
                 * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
             -->
             <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
             <!-- 3. 실행 스크립트 -->
             <script charset="UTF-8">
                 new daum.roughmap.Lander({
-                    "timestamp" : "1630039877694",
-                    "key" : "275uf",
-                    "mapWidth" : "385",
+                    "timestamp" : "1630054847310",
+                    "key" : "27646",
+                    "mapWidth" : "640",
                     "mapHeight" : "360"
                 }).render();
             </script>
@@ -539,20 +561,20 @@
         <!-- <script src="/static/theme/app/vendor/jquery/dist/jquery.js"></script> -->
         <script src="../../../code.jquery.com/jquery-1.8.3.min.js"></script>
         <!-- lightGallery -->
-        <script src="../../static/js/lightGallery/dist/js/lightgallery.min.js"></script>
-        <script src="../../static/js/lightGallery/lib/jquery.mousewheel.min.js"></script>
-        <script src="../../static/js/lightGallery/modules/lg-thumbnail.min.js"></script>
-        <script src="../../static/js/lightGallery/modules/lg-fullscreen.min.js"></script>
-        <script src="../../static/js/lightGallery/modules/lg-zoom.min.js"></script>
-        <script src="../../static/js/lightGallery/modules/lg-autoplay.min.js"></script>
+        <script src="../../static/js/lightGallery/dist/lightgallery.umd.js"></script>
+        <!-- lightgallery plugins -->
+        <script src="../../static/js/lightGallery/dist/plugins/\thumbnail/lg-thumbnail.umd.js"></script>
+        <script src="../../static/js/lightGallery/dist/plugins/zoom/lg-zoom.umd.js"></script>
         <!-- Jssor Slider -->
         <script src="../../static/js/jssor.slider/jssor.slider.min.js"></script>
         <script src="../../static/js/jssor.slider/jssor1.js"></script>
         <script src="../../static/js/waypoint.min.js"></script>
         <script src="../../static/js/snowfall.jquery.min.js"></script>
-        <script src="../../static/js/clipboard.min.js"></script>
         <script src="../../static/js/emojionearea/emojionearea.js"></script>
         <script src="../../static/js/front.js-version=1630022086"></script>
+        <script src="../../static/js/clipboard.min.js"></script>    <!-- 클립보드  -->
+        <script> new ClipboardJS('.btn'); </script><!-- 클립보드  -->
+
         <script>
             //<![CDATA[
             $(function () {
@@ -621,110 +643,6 @@
                 false
             );
 
-            // var $lg = $('.gallery_list').lightGallery();
-
-            window.onhashchange = function (e) {
-                var oldURL = e.oldURL.split("#")[1];
-                var newURL = e.newURL.split("#")[1];
-
-                if (oldURL == "more_gallery") {
-                    e.preventDefault();
-                    return false;
-                } else if (oldURL == "more_guest") {
-                    e.preventDefault();
-                    return false;
-                }
-            };
-
-            $("#more_gallery").on("click", function (e) {
-                e.preventDefault();
-
-                var seq = "33633";
-
-                $.ajax({
-                    method: "post",
-                    url: "/invitation/get_gallery_list/" + seq,
-                    dataType: "json",
-                    success: function (data) {
-                        var $lg = $(this);
-
-                        $lg.lightGallery({
-                            dynamic: true,
-                            dynamicEl: data,
-                            download: false,
-                            autoplay: true,
-                        });
-
-                        $lg.on("coding114.tk/invitation/view/onAfterOpen.lg", function (event) {
-                            $(".quickmenu").hide();
-                        });
-
-                        $lg.on("coding114.tk/invitation/view/onCloseAfter.lg", function (event) {
-                            $(".quickmenu").show();
-                        });
-                    },
-                });
-            });
-
-            var traffic_map = new naver.maps.Map("traffic_map", { center: new naver.maps.LatLng(37.3143012, 126.8408916) });
-            var traffic_marker = new naver.maps.Marker({
-                position: new naver.maps.LatLng(37.3143012, 126.8408916),
-                map: traffic_map,
-            });
-            naver.maps.Event.addListener(traffic_map, "click", function (e) {
-                location.href = "nmap://place?lat=37.3143012&lng=126.8408916&name=후크블라드&appname=http://thegoodday.kr/6";
-            });
-
-            Kakao.init("048a9d9ab667fc3b5f6ed77c28d87808");
-
-            // 카카오내비
-            function navi_kakao(event) {
-                event.preventDefault();
-                Kakao.Navi.start({
-                    name: "후크 블라드",
-                    x: 126.8408916,
-                    y: 37.3143012,
-                    coordType: "wgs84",
-                });
-            }
-
-            var sns_message = "\ub0a8\uc815\uc218&\uad8c\uc601\ud574 \uacb0\ud63c\uc2dd\uc744 \ucd95\ud558\ud574\uc8fc\uc138\uc694.";
-
-            // 카카오톡
-            function sns_kakaotalk(event) {
-                event.preventDefault();
-                Kakao.Link.sendDefault({
-                    objectType: "feed",
-                    content: {
-                        title: "코딩 ♥ 고릴라",
-                        description: sns_message,
-                        imageUrl: "coding114.tk/static/upload/invitation/33633/crop/3654f03735143842fa226a3da3204465.jpg",
-                        link: {
-                            mobileWebUrl: "coding114.tk/33633",
-                            webUrl: "coding114.tk/33633",
-                        },
-                    },
-                    buttons: [
-                        {
-                            title: "청첩장 바로가기",
-                            link: {
-                                mobileWebUrl: "coding114.tk/33633",
-                                webUrl: "coding114.tk/33633",
-                            },
-                        },
-                    ],
-                });
-            }
-
-            // 카카오스토리
-            function sns_kakaostory(event) {
-                event.preventDefault();
-                Kakao.Story.open({
-                    url: "coding114.tk/33633",
-                    text: sns_message,
-                });
-            }
-
             // 페이스북
             function sns_facebook(event) {
                 event.preventDefault();
@@ -761,6 +679,14 @@
             }
             //]]>
         </script>
+
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery'), {
+                plugins: [lgZoom, lgThumbnail],
+                speed: 500,
+            });
+        </script>
+        
         <iframe frameborder="0" width="0" height="0" name="ifmSubmit" id="ifmSubmit" style="display: none;"></iframe>
     </body>
 </html>

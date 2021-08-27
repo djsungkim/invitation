@@ -246,6 +246,9 @@ b {
   overflow: hidden;
   text-align: center;
   color: #313131;
+  position: fixed;
+  top: 50%;
+  right: 10px;
 }
 
 .bgm_area > div.dday_area {
@@ -523,11 +526,11 @@ b {
 
 .gallery_area > .gallery > .gallery_list .gallery_devide {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
-.gallery_area > .gallery > .gallery_list .gallery_devide > img {
-  width: 95%;
+.gallery_area > .gallery > .gallery_list .gallery_devide img {
+  width: 49%;
   margin: 3px 0;
 }
 
@@ -1114,6 +1117,9 @@ b {
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
   color: #333;
+}
+#daumRoughmapContainer1630039877694 {
+  width: 100%;
 }
 
 .reception_place_subway {
