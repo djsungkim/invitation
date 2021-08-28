@@ -246,7 +246,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="main_dday_wrapper">* 예식일이 <span class="main_dday_text">265</span> 일 남았습니다.</div>
+                <div class="main_dday_wrapper">* 예식일이 <span class="main_dday_text" id="main_dday_text"></span> 일 남았습니다.</div>
             </div>
             <div class="guest_area animation animationUp" id="guest">
                 <div class="guest_title"><img src="wedding/static/theme/theme_new_05/img/guest_tit.png" /></div>
@@ -627,6 +627,21 @@
             });
         </script>
         
+        <script>	// D-Day 
+            const dday = new Date("2022-05-20:17:20:00+0900").getTime();
+            
+            setInterval(function() {
+              const today = new Date().getTime();
+              const gap = dday - today;
+              const day = Math.floor(gap / (1000 * 60 * 60 * 24));
+              const hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              const min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+              const sec = Math.floor((gap % (1000 * 60)) / 1000);
+
+              document.getElementById("main_dday_text").innerHTML = day
+            }, 1000);  
+            </script>
+
         <iframe frameborder="0" width="0" height="0" name="ifmSubmit" id="ifmSubmit" style="display: none;"></iframe>
     </body>
 </html>
