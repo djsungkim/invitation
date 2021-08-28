@@ -628,11 +628,11 @@
         </script>
         
         <script>	// D-Day 
-            const dday = new Date("2022-05-20:17:20:00+0900").getTime();
+            const d_day = new Date("2022-05-20:17:20:00+0900").getTime();
             
             setInterval(function() {
               const today = new Date().getTime();
-              const gap = dday - today;
+              const gap = d_day - today;
               const day = Math.floor(gap / (1000 * 60 * 60 * 24));
               const hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
               const min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
