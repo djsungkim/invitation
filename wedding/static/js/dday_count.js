@@ -1,6 +1,6 @@
 
 // D-Day 
-const d_day = new Date("2022-05-20:17:20:00+0900").getTime();
+const d_day = new Date("2022/05/20 17:20:00").getTime();
 
 setInterval(function() {
   const today = new Date().getTime();
