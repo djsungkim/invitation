@@ -532,10 +532,9 @@
 
             // 배경음악
             var bgm = document.getElementById("bgm");
-            // 동영상
 
             $("#btn_bgm_control").on("click", function (e) {
-                e.preventDefault();
+                e.preventDefault(); //실행을 막는다
                 if (bgm.paused) {
                     $(this)
                         .find("img")
@@ -567,7 +566,7 @@
             var firstScriptTag = document.getElementsByTagName("script")[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-            // 배경음악 컨트롤
+            // youtube 배경음악 컨트롤
             bgm.addEventListener(
                 "play",
                 function () {
