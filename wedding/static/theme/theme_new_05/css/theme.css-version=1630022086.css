@@ -331,7 +331,7 @@ b {
 .main_area .main_image_area {
   /*margin: 20px;*/
   position: relative;
-  z-index: 1;
+  z-index: auto;
 }
 
 .main_area .main_image_area .mit {
